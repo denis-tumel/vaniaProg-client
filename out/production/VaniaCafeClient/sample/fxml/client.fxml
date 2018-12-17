@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="262.0" prefWidth="354.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.ClientController">
+   <children>
+      <Label layoutX="116.0" layoutY="25.0" text="Окно клиента">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="238.0" layoutY="124.0" mnemonicParsing="false" onAction="#ActionOrderCofe" prefHeight="70.0" prefWidth="98.0" text="заказать кофе" />
+      <TextArea fx:id="listOrder" layoutX="16.0" layoutY="70.0" prefHeight="178.0" prefWidth="200.0" />
+   </children>
+</AnchorPane>

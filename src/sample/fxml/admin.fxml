@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="268.0" prefWidth="404.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.AdminController">
+   <children>
+      <Label layoutX="166.0" layoutY="14.0" text="АДМИН" AnchorPane.leftAnchor="166.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="44.0" layoutY="109.0" mnemonicParsing="false" onAction="#ActionViewUsers" prefHeight="37.0" prefWidth="83.0" text="открыть" />
+      <Button layoutX="265.0" layoutY="109.0" mnemonicParsing="false" onAction="#ActionViewStaff" prefHeight="37.0" prefWidth="83.0" text="открыть" />
+      <Button layoutX="262.0" layoutY="211.0" mnemonicParsing="false" onAction="#ActionViewCafe" prefHeight="37.0" prefWidth="83.0" text="открыть" />
+      <Label layoutX="11.0" layoutY="77.0" text="работа с пользователями" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Separator layoutX="1.0" layoutY="54.0" prefWidth="200.0" AnchorPane.leftAnchor="1.0" AnchorPane.rightAnchor="-1.0" AnchorPane.topAnchor="54.0" />
+      <Label layoutX="244.0" layoutY="77.0" text="работа с персоналом" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="262.0" layoutY="184.0" text="работа с кофе" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Label>
+      <Button layoutX="45.0" layoutY="211.0" mnemonicParsing="false" onAction="#ActionOrderView" prefHeight="37.0" prefWidth="83.0" text="открыть" />
+      <Label layoutX="32.0" layoutY="184.0" text="работа с заказами" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Separator layoutX="86.0" layoutY="167.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <Separator layoutX="90.0" layoutY="159.0" prefWidth="215.0" rotate="90.0" AnchorPane.topAnchor="159.0" />
+   </children>
+</AnchorPane>

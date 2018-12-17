@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="352.0" prefWidth="431.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.WorkCofeController">
+   <children>
+      <Button fx:id="btnAdd" layoutX="277.0" layoutY="149.0" mnemonicParsing="false" onAction="#ActionPressed" prefHeight="36.0" prefWidth="98.0" text="добавить" />
+      <Button fx:id="btnDelete" layoutX="277.0" layoutY="250.0" mnemonicParsing="false" onAction="#ActionPressed" prefHeight="36.0" prefWidth="98.0" text="удалить" />
+      <Button fx:id="btnEdit" layoutX="277.0" layoutY="199.0" mnemonicParsing="false" onAction="#ActionPressed" prefHeight="36.0" prefWidth="98.0" text="редактировать" />
+      <TableView fx:id="table" layoutX="25.0" layoutY="59.0" prefHeight="251.0" prefWidth="200.0">
+        <columns>
+          <TableColumn fx:id="name" prefWidth="75.0" text="название" />
+          <TableColumn fx:id="price" prefWidth="75.0" text="цена" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <Label layoutX="40.0" layoutY="23.0" text="Ассортимент кофе:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <TextField fx:id="nameF" layoutX="251.0" layoutY="59.0" promptText="название" />
+      <TextField fx:id="priceF" layoutX="251.0" layoutY="97.0" promptText="цена" />
+      <Label layoutX="250.0" layoutY="23.0" text="Работа над кофе:">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

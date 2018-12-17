@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="337.0" prefWidth="242.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.RegistrationController">
+   <children>
+      <Button cancelButton="true" layoutX="43.0" layoutY="267.0" mnemonicParsing="false" onAction="#ActionBack" prefHeight="35.0" prefWidth="48.0" text="назад" />
+      <Button defaultButton="true" layoutX="107.0" layoutY="267.0" mnemonicParsing="false" onAction="#ActionRegister" prefHeight="35.0" prefWidth="85.0" text="регистрация" />
+      <Label layoutX="47.0" layoutY="28.0" text="Регистрация">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font></Label>
+      <TextField fx:id="nameF" layoutX="43.0" layoutY="73.0" prefHeight="35.0" prefWidth="149.0" promptText="имя" />
+      <TextField fx:id="surnameF" layoutX="43.0" layoutY="118.0" prefHeight="35.0" prefWidth="149.0" promptText="фамилия" />
+      <TextField fx:id="emailF" layoutX="43.0" layoutY="162.0" prefHeight="35.0" prefWidth="149.0" promptText="e-mail" />
+      <PasswordField fx:id="passwordF" layoutX="43.0" layoutY="208.0" prefHeight="35.0" prefWidth="149.0" promptText="пароль" />
+   </children>
+</AnchorPane>
